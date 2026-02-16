@@ -53,7 +53,7 @@ ln -s /usr/tomcat/tomcat_10 /usr/tomcat/backup
 Change ownership for tomcat file
 
 ```
-chmod -R tomcat: /usr/tomcat/*
+chown -R tomcat: /usr/tomcat/*
 ```
 
 Create ```tomcat.service``` file 
